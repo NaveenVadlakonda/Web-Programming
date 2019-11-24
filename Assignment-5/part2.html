@@ -1,0 +1,69 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>part2</title>
+	 <link href="part2.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="part2.js"></script>
+	
+</head>
+<body onload="reset()">
+    	 <ul>
+  <center> 
+      <h1>Part2</h1>
+
+
+  	<h1>Guess The Number</h1>
+	  <li><a href="part1.html">Part-1</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+  <li><a href="part3.html">Part-3</a></li>&nbsp;&nbsp;	
+  </center>
+
+  
+</ul>
+<form name="guessForm" method="post" action="">
+
+			<div class="leftbar"> 
+				<table class="guess">
+					<tr>
+						<th colspan="3">Number Range: 0-100</th>
+					</tr> 
+					
+					<tr>
+					<td rowspan="6" > <img  src="question.jpg" style="width:304px;height:200px;"> </td>
+						<td colspan="3"><input class="label" name="hint" type="text" 
+												id="hint" value="Enter a number and press Guess." size="70" readonly="readonly"/>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<input class="text" name="userGuess" type="text" id="userGuess" value="0" size="50" maxlength="3" />
+							</td>
+					</tr>
+
+					<tr>
+						<td  colspan="3">
+							<input type="button" class="button" value="Guess" onclick="guess()" />
+							<input type="button" class="button" value="Reset" onclick="reset()" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3"><input   class="special" name="chance" type="text" 
+								id="chance" value="Chances:" size="70" readonly="readonly"/>
+						</td>
+					</tr> 
+					<tr>
+						<td colspan="3"><input   class="label" name="guesses" type="text" 
+								id="guesses" value="Your Guesses: :" size="70" readonly="readonly"/></td>
+					</tr>
+						</table>
+					
+			</div>
+			
+		<div class="rightbar">  </div>
+	</form>
+ 	<br/>  
+	
+	
+</body>
+</html>

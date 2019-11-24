@@ -1,0 +1,103 @@
+body{
+	background-repeat: repeat;
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 12pt;
+	line-height: 1.25em;
+	background-image: url("numberbg.jpg");
+
+	height: 100%;
+}
+ 
+h1{
+	text-align:center;
+	padding:10px;
+    color: blueviolet;
+}
+
+ul {
+	text-align:center;	
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+a:visited{
+    color: indianred;
+    
+}
+li {
+    display: inline;
+}
+.special{
+	color: #FF0000;
+	background-color:#FFDAB9;
+	border: 1px solid #781351;
+	float:none;
+	font-size:12px;
+	font-weight:bold;
+	height:28px;
+}
+
+
+
+label
+{
+	width: auto;
+	float: left;
+	text-align: left;
+	display: block;
+}
+
+.label
+{
+	color: #781351;
+	background-color:#BDBDBD;
+	border: 1px solid #781351;
+	float:none;
+	font-size:12px;
+	font-weight:bold;
+	height:28px;
+}
+
+
+.text
+{
+	color: #781351;
+	background: #F2F2F2;
+	border: 2px solid #781351;
+	float:none;
+	font-size:12px;
+	font-weight:bold;
+	height:20px;
+}
+
+
+
+
+
+table.guess{
+	border-collapse:collapse;
+	border:3px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.guess tr
+{
+	height:30px;
+}
+
+table.guess th
+{
+	text-align:center;
+	background-color:burlywood;
+	font-size: 26px;
+	height:50px;
+}
+
+table.guess td
+{
+	text-align:center;
+	height:20px;
+	
+}
+

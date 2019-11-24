@@ -1,0 +1,36 @@
+
+
+
+        body
+{
+font-family:Comic Sans MS;
+font-size:18px;
+background-image: url("part1bg2.jpg");
+padding: 50px, 0px, 50px, 50px;
+}
+h1{
+	text-align:center;
+	padding:10px;
+}
+
+ul {
+	text-align:center;
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+li {
+    display: inline;
+}
+.total{
+    text-align: center;
+}
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+	background-color:#D8D8D8
+  }
+
+th{background-color:#E6E6E6}

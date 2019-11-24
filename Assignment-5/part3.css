@@ -1,0 +1,17 @@
+.tile1{
+	width:140px;
+	height:140px;
+
+}
+body{
+background-image: url("cupcakebg.jpg"); no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    background-color: #cccccc;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:20px;
+	color:rebeccapurple;
+}
