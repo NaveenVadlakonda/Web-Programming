@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Assignment-6 Part-3</title>
+<style>
+.x{text-align: center
+   }
+body{
+    background-color:	bisque;
+    text-align: center;
+				 }
+    .headul {
+	text-align:center;
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+.headli {
+    display: inline;
+}
+</style>
+<script>
+function loadList1() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+     document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+  };
+  xhttp.open("GET", "./list1.txt", true);
+  xhttp.send();
+}
+function loadList2() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+     document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+  };
+  xhttp.open("GET", "./list2.txt", true);
+  xhttp.send();
+}
+function loadList3() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+     document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+  };
+  xhttp.open("GET", "./list3.txt", true);
+  xhttp.send();
+}
+    
+</script>
+</head>
+<body>
+    <h1>Part 3</h1>
+		
+  <center> 
+	  <a href="part1.html">Part1</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="part2.html">Part2</a>&nbsp;&nbsp;	
+  </center><br>
+   
+<div class="x">
+ <h3>Click to View More Info</h3>
+<ul class="informatinable">
+<li onclick="loadList1()">Mustang</li>
+<li onclick="loadList2()">Mercedes-Benz</li>
+<li onclick="loadList3()">Land Rover</li>
+</ul>
+</div>
+<div  id="demo"></div>
+
+</body>
+</html>
