@@ -1,0 +1,100 @@
+html{
+	background-image: url("jag.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:20px;
+}
+
+body{
+	background-color:#FFCC00;
+	font-family:Georgia;
+	padding:20px;
+    }
+
+h1,h2,caption{
+	background-color:#F0F0F0;
+	text-align:center;
+	color:#A4A400;
+	font-family:"Century Gothic";
+	font-weight:bold;
+	letter-spacing:2px;
+}
+
+.navigation {
+    float:left;
+	margin-left:50px;
+    padding:0px;	      
+}
+
+.menu{
+ display: inline;
+ font-family:"Berlin Sans FB";
+ color:#F0F0F0;
+}
+ .a {
+    background-color: #DCD191;
+    color: blue;
+    padding: 6px;
+    text-decoration: none;
+	border-right-color:blue;
+	border-right-style:solid;
+	border-right-width:10px;
+	overflow:hidden;
+}
+
+
+
+
+
+span.a{
+	background-color:#F0F0F0;
+	text-align:center;
+	color:#003366;
+	font-family:"Century Gothic";
+	font-weight:bold;
+}
+
+span.b{
+	font-weight:bold;
+	
+}
+
+span.c{background-color:#003366;}
+
+th{background-color:#003366;
+color:#FFFFFF;
+border: 2px solid #FFFFFF;
+padding:5px;
+border-collapse:collapse;
+}
+
+td{background-color:#CC9933;
+color:#FFFFFF;
+border-color:#FFFFFF;
+border: 2px solid #FFFFFF;
+padding:5px;
+border-collapse:collapse;
+}
+table{background-color:#CC9933;
+border-collapse:collapse;
+color:#FFFFFF;
+border-color:#FFFFFF;
+border: 1px solid #FFFFFF;
+margin-top:20px;
+}
+
+.a00{width:500px; background-color:#FAD391; }
+.a01{background-color:#FAD391; text-align:center;}
+.a02{background-color:#F9E4C1; text-align:center;}
+.a03{background-color:#FFFFFF;}
+.a04{width:50%; float:left;}
+.a05{background-color:#000000; padding-right:60px;}
+.a06{background-color:#000000; padding-right:45px;}
+
+
+ul {
+    list-style-image: url('bullet.png');
+}
+
+.i{float:left;
+padding-right:100px;}
