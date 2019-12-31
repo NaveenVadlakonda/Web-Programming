@@ -1,0 +1,22 @@
+.name{
+    
+    color:aqua;
+    Font-weight:bold;
+    font-family: "Tohoma",serif;
+}
+
+p{font-family: sans-serif;
+font-size: 30px;
+  color: brown}
+
+h1{ font-size: 40px;
+    text-align: center;
+    color: blue;
+    font-family: Arial;
+}
+
+#subjects{
+     color: indianred;
+   text-align: right;
+    
+}
